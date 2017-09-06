@@ -843,7 +843,7 @@ body {
   }
 
   .menu-2 {
-    border-top: 2px solid #fff;
+    /*border-top: 2px solid #fff;*/
     position: absolute;
     left: 100%;
     top: -4px;
@@ -1107,7 +1107,7 @@ body {
     .link-block {
       background: #0083d3;
       text-align: -webkit-left;
-      border-bottom: 1px solid blue;
+      /*border-bottom: 1px solid blue;*/
     }
     .link-block a{
       font-size: 17px;
@@ -2002,7 +2002,7 @@ span.title {
 /*dinh dang srcoll-bar*/
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -2044,7 +2044,7 @@ span.title {
   /* tintuc */
 
   .info-video .tintuc_left {
-    border: 1px solid #0083d3;
+    border: 1px dotted #0083d3;
   }
 
   .top-video {
@@ -2116,6 +2116,7 @@ span.title {
   .tintuc_left {
     background: #fff;
     margin-bottom: 5px;
+    border: 1px dotted #0083d3;
   }
 
 
@@ -2465,10 +2466,10 @@ ul.breadcrumb li a:hover {
 
 .items {
 
-  width: 100%;
+ /* width: 100%;*/
   margin-bottom: 20px;
-  margin: 0px 15px;
-  height: 250px;
+  margin: 0px 15px 0px 0px;
+ /* height: 250px;*/
 
 }
 
@@ -3101,6 +3102,7 @@ p.comment-share {
       border: none;
       width: 300px;
       height: 40px;
+      max-width: 100%;
     }
 
     .register-btn .btn a {
@@ -3370,4 +3372,6 @@ p.comment-share {
       display: block;
       /* background-size: 35px;*/
     }
-
+.news-content h2{
+  font-size: 20px;
+}

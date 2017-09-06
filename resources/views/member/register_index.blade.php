@@ -27,9 +27,9 @@
                           <div class="register-text">
                             <p>Để đăng ký làm Hội viên VASEP, vui lòng download file dưới đây:</p>
                             <div class="text1">
-                              <div class="container">
+                             
                                 <div class="row">
-                                  <div class="col-md-5">
+                                  <div class="col-md-7 col-sm-7 col-xs-12">
                                     <p><strong class="text-bold">ĐĂNG KÝ HỘI VIÊN PHÁP NHÂN</strong></p>
                                     <p>
                                       <strong><span >1.</span></strong>
@@ -50,7 +50,7 @@
                                       </strong>
                                     </p>
                                   </div>
-                                  <div class="col-md-6">
+                                  <div class="col-md-5 col-sm-5 col-xs-12">
                                     <p><strong class="text-bold">HOẶC ĐĂNG KÝ NGAY TẠI ĐÂY:</strong></p>
                                     <div class="register-btn">
                                       <button class="btn box-btn1" type=""><a href="{{ route('member.register.personal') }}"><span class="fa fa-user"></span> Đăng ký hội viên cá nhân</a></button>
@@ -61,9 +61,8 @@
                                 </div>
                               </div>
                               <div class="text2">
-                                <div class="container">
                                   <div class="row">
-                                    <div class="col-md-5">
+                                    <div class="col-md-12 col-xs-12">
                                       <p><strong class="text-bold">ĐĂNG KÝ HỘI VIÊN CÁ NHÂN</strong></p>
                                       <p>
                                         <strong><span >1.</span></strong>
@@ -78,7 +77,6 @@
                                         </strong>
                                       </p>
                                     </div>
-                                  </div>
                                 </div>
                               </div>
                               <div class="footer-text">
@@ -89,7 +87,6 @@
                                 <p>Tel: 04 38746888</p>
                                 <p>Mobile: 0979 568 974</p>
                               </div>
-                            </div>
                           </div>
                         </div>
                       </div>

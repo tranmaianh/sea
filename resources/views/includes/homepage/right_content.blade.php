@@ -26,7 +26,7 @@
 										</div>
 										<div class="col-md-7 col-sm-6 col-xs-12">
 											<div class="text-new-1 text-news-hot-t">
-												<span class="a-link">{{ str_limit($value->title,$limit=30,$end='...') }} 	<span><img src="{{ asset('images/hot_1.gif') }}" border="0"></span>
+												<span class="a-link">{{ str_limit($value->title,$limit=30,$end='...') }} <span><img src="{{ asset('images/hot_1.gif') }}" border="0"></span>
 												<br>
 												<span class="h5-tt">{{ Carbon\Carbon::parse($value->posted_at)->format('d/m/Y') }}</span>
 											</div>

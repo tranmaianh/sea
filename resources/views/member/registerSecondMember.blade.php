@@ -39,7 +39,7 @@
                                  </div>
                               </div>
 
-                              <div class="col-md-7 col-sm-8 col-xs-12">
+                              <div class="col-md-8 col-sm-8 col-xs-12">
                                 <div class="items ">
                                   <!--Item-->
                                       <div class="inf-user">

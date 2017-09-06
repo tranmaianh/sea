@@ -37,7 +37,7 @@
                                 <img src="{{ asset($user['avatar']) }}" alt="avata" class="img-hoivien mg img-thumbnail">
                               </div>
                             </div>
-                            <div class="col-md-7 col-sm-4 col-xs-12">
+                            <div class="col-md-8 col-sm-4 col-xs-12">
                               <div class="items ">
                                 <!--Item-->
                                 <div class="row">
@@ -159,8 +159,6 @@
                                 </div>
                               </div>
                             </div>
-                            
-
                           </div>
                         </div>
                         
