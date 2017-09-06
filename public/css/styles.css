@@ -755,7 +755,7 @@ body {
     .submenu-reponsive .nav>li>ul>li,
     .submenu-reponsive .nav>li>ul>li>ul>li {
       border-bottom: 1px dotted #fff;
-      background: #0083d3;
+      background: #278be8;
     }
 
     .submenu-reponsive .nav>li>ul>li>ul {
@@ -794,9 +794,10 @@ body {
   ul.dropdown-menu a:hover,
   ul.dropdown-menu a:active,
   ul.dropdown-menu a:focus {
-    background: #86b2f6 !important;
+    background: #2ba8f5!important;
     color: #fff !important;
     text-decoration: none;
+    text-transform: capitalize;
   }
 
   .submenu-reponsive .navbar-brand {
@@ -833,7 +834,6 @@ body {
 
   .submenu-reponsive .nav.open .dropdown-menu>li:hover {
     background: #55b6f1;
-    /* border-bottom: 1px solid #fff;*/
   }
 
   .sub-menu {
@@ -859,7 +859,9 @@ body {
 
 
 
-
+.icon-header a i:hover{
+  background: #acdeec;
+}
   /* End Menu */
 
 
@@ -3042,7 +3044,7 @@ p.comment-share {
       text-decoration: none;
       color: #0080ce;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 14px;
       vertical-align: middle;
     }
 

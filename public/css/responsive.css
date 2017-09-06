@@ -229,8 +229,17 @@
     }
     .navbar-default .navbar-toggle:hover {
       /*position: absolute;*/
-      background-color: #86b2f6;
+      background-color: #0083d3;
       /* left: 80%;*/
+    }
+    .submenu-reponsive .nav>li>ul {
+      background: #0083d3;
+      width: 100%;
+    }
+    .sub-menu {
+    border-top: 1px solid #fff;
+    background: #0083d3;
+    width: 100%;
     }
 
 
@@ -684,11 +693,11 @@
   }
   .search-field {
     position: absolute;
-    right: 148px;
+    right: 90px;
     top: 8px;
     display: block;
-    left: 0px;
-  }
+    left: 10px;
+}
   .button-lang {
    display: none;
   }
